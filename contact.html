@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+        <meta charset="utf-8">
+        <title>Contact</title>
+        <meta name="description" content="Huiswerk les 15 van de NHA studie Software Developer">
+        <meta name="keywords" content="HTML, CSS, NHA, Software Developer">
+        <meta name="author" content="Roy Smitsmans">
+        <link rel="stylesheet" type="text/css" href="CSS/Stylesheet.css">
+    </head>
+
+    <body>
+        <header>
+                <ul class="inhoud">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="mijncv.html">Mijn CV</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>  
+        </header>
+
+        <h1 class="inhoud">Contact</h1>
+        <form method="post" action="https://formspree.io/f/mwkdopkv" target="_blank" id="formulier" class="inhoud">
+            <label for="voornaam">Voornaam: </label><br>
+                <input type="text" name="Voornaam: " id="voornaam" placeholder="Voornaam" required><br>
+            <label for="achternaam">Achternaam: </label><br>
+                <input type="text" name="Achternaam: " id="achternaam" placeholder="Achternaam" required><br>
+            <label for="email">E-mail adres: </label><br>
+                <input type="email" name="E-mail: " id="email" placeholder="janjanssen@hotmail.com" required><br>
+            <label for="bericht">Bericht (max. 400 tekens): </label><br>
+                <textarea placeholder="Type hier uw bericht" name="Bericht: " id="bericht" maxlength="400" required></textarea><br>
+                <button type="submit" id="verzenden">Verstuur</button>
+        </form>
+
+        <footer>
+            <p class="inhoud">&copy; Deze website is copyright van Roy Smitsmans. Onder geen enkel beding mag deze website of delen hiervan gebruikt worden anders dan waar deze site voor dient.</p>
+        </footer>
+
+    </body>
+</html>
